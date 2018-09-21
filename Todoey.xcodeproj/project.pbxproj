@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		062852FD21542FB80040C339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062852FC21542FB80040C339 /* AppDelegate.swift */; };
-		062852FF21542FB80040C339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062852FE21542FB80040C339 /* ViewController.swift */; };
+		062852FF21542FB80040C339 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062852FE21542FB80040C339 /* TodoListViewController.swift */; };
 		0628530221542FB80040C339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0628530021542FB80040C339 /* Main.storyboard */; };
 		0628530421542FBA0040C339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0628530321542FBA0040C339 /* Assets.xcassets */; };
 		0628530721542FBA0040C339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0628530521542FBA0040C339 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		062852F921542FB80040C339 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		062852FC21542FB80040C339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		062852FE21542FB80040C339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		062852FE21542FB80040C339 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		0628530121542FB80040C339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0628530321542FBA0040C339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0628530621542FBA0040C339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				062852FC21542FB80040C339 /* AppDelegate.swift */,
-				062852FE21542FB80040C339 /* ViewController.swift */,
+				062852FE21542FB80040C339 /* TodoListViewController.swift */,
 				0628530021542FB80040C339 /* Main.storyboard */,
 				0628530321542FBA0040C339 /* Assets.xcassets */,
 				0628530521542FBA0040C339 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062852FF21542FB80040C339 /* ViewController.swift in Sources */,
+				062852FF21542FB80040C339 /* TodoListViewController.swift in Sources */,
 				062852FD21542FB80040C339 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +282,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +292,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monster.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monster.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
